@@ -1,0 +1,13 @@
+,type,AccessControl,Xiao_AC,Sentence
+8,normal,1,0,Admission nurses use SSN for reviewing eligibility if requested by a patient who is returning.
+17,normal,1,0,The director chooses options from the package to give to all employees.
+40,normal,1,0,PC members and authors of papers are known to everybody.
+42,normal,1,0,The PC chair appoints the PC members.
+48,normal,1,0,Subreviewers are known to all PC members who are not authors of the respective papers.
+54,normal,1,0,The sole counter-example shows that a student with the freedom to assign external grades is also a ta but not a faculty member.
+57,normal,1,0,"If the subject is a faculty member, then permit that subject to assign grades."
+58,normal,1,0,"If the subject is a student, then do not permit that subject to assign grades."
+59,normal,1,0,"If the subject is not a faculty member, then permit that subject to enroll in courses."
+66,normal,1,0,The care plan is updated in consultation with the resident or the responsible person.
+83,normal,1,0,This is permitted with the consent of the resident or the responsible person and the notification of the manager.
+118,normal,1,0,"Only administrators, not data owners, make changes to a resource's security label."

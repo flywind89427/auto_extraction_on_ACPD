@@ -1,0 +1,42 @@
+,type,AccessControl,Xiao_AC,Sentence
+28,normal,1,0,These overviews are currently updated at 5 minutes before the hour.
+31,normal,1,0,"Based on the preferences and the reviewers' expertise, CyberChair calculates a paper assignment proposal for the chair, where as many as possible preferences of the reviewers are honored, provided that all papers are assigned to an equal number of reviewers (so also the papers that did not get any preferences), and all reviewers are assigned as much as possible an equal number of papers."
+39,normal,1,0,"The level of agreement among reviewers is indicated on each reviewer's personal page, using a coloring scheme."
+43,normal,1,0,"Papers are classified, using the highest and the lowest classification given by the reviewers (A to D), as described in the paper mentioned above."
+45,normal,1,0,"CyberChair provides direct reflection on submitted reviews (for easy comparison with the other reviewers' opinions), without the maintainer's interference."
+75,normal,1,0,"CyberChair deals with most administrative tasks that are involved in the review process, such as storing author information, abstracts, (camera-ready) papers and reviews."
+76,normal,1,0,It generates several overviews based on the reviews which support the Program Committee (PC) in selecting the best papers.
+77,normal,1,0,CyberChair points out conflicting reviews and offers the reviewers means to easily communicate to solve these conflicts.
+115,normal,1,0,"After the review process, the maintainer makes sure that the notifications of acceptance and rejections, including the reviewers’ remarks, are sent to the authors."
+120,normal,1,0,CyberChair assigns a unique identification to the submission and sends a login and password combination for step 2 to the contact person’s email address.
+133,normal,1,0,"To support reviewers with making choices, CyberChair provides them with several webpages containing overviews of  the submitted abstracts."
+139,normal,1,0,The submitted bids are accumulated.
+152,normal,1,0,"After the paper distribution, CyberChair generates a personal, password-protected webpage for each reviewer."
+154,normal,1,0,"The top frame shows, in colored boxes, the numbers of all papers that have been assigned to the reviewer."
+155,normal,1,0,"The colored boxes indicate the state of the reviews, which is determined each time a review is submitted by any of the reviewers."
+165,normal,1,0,A copy of the message is sent to the PCC.
+166,normal,1,0,"Further, links are provided that contain all reviews of the reviewer, and all reviews of all reviewers of the paper, respectively."
+170,list-start,1,0,The following classifications are used:
+179,normal,1,0,The highest and lowest classification given to a paper are taken into account.
+180,normal,1,0,"Using a coloring scheme, the state of reviews is indicated."
+197,normal,1,0,CyberChair generates a paper distribution proposal for the PCC.
+209,normal,1,0,"CyberChair is composed of a set of Common Gateway Interface (CGI) scripts, which are activated by the webforms that are used by the authors and reviewers."
+210,normal,1,0,Other scripts are so-called administrative scripts which are either started by the maintainer or automatically at regular intervals by the system (e.g. crontab on Unix systems).
+216,normal,1,0,"The current implementation collects the preferences (bids), expertise levels and willingness to review papers on certain topics and the conflicts of interest of the reviewers."
+219,normal,1,0,"For each paper, a list of the reviewers who indicated a high preference for the paper is generated."
+220,normal,1,0,"This list is sorted, based on the number of papers the reviewers have already been assigned so far."
+221,normal,1,0,The 4 reviewers with the least number of papers assigned so far ’get’ the paper.
+222,normal,1,0,"In case there are less than 4 reviewers, this process is repeated with the list of reviewers who indicated a low preference for the paper."
+223,normal,1,0,"If there are still not enough reviewers for the paper, the expertise level of reviewers of all topics the paper covers is calculated and the paper is assigned to the reviewers with the highest overall expertise."
+224,normal,1,0,"In case the ’expertise-value’ is equal, the reviewer with the least number of papers assigned so far ’gets’ the paper."
+229,normal,1,0,The size of this pool is influenced by the maximum number of papers that is assigned to reviewers based on their preferences.
+234,normal,1,0,"In general, either a large percentage of preferences is assigned (in case reviewers selected enough papers that were indeed submitted), or the number of preferences that was assigned is high (in case a reviewer indicated more papers than the maximum number of papers assigned to reviewers)."
+236,normal,1,0,The pages of the reviewers are generated once by the maintainer when the paper distribution has been done.
+242,normal,1,0,"When the reviewer clicks on a paper number, this causes the activation of a CGI script that in its turn generates a frameset, consisting of 3 frames (See figure 4)."
+246,normal,1,0,The lower right frame initially contains the abstract of the paper.
+262,normal,1,0,"All review files a reviewer needs, such as the review form and other reviewers’ reviews, are written in the reviewer’s directory."
+263,normal,1,0,"Each time the reviewer clicks on a paper number in the top frame, CyberChair checks if the reviewer has already submitted his or her review."
+264,normal,1,0,"If this is the case, then the reviews of the other reviewers for this paper are copied into the reviewer’s directory."
+266,normal,1,0,"When displaying a review, the date and time of the last update of the review is shown as extra check."
+292,normal,1,0,"Further, it allows reviewers to learn about each other’s opinions, which provides means for good preparation for the PC meeting."
+299,normal,1,0,"It helps the PC to select the best papers for the conference, which makes it a group decision support system."

@@ -1,0 +1,255 @@
+,type,AccessControl,Xiao_AC,Sentence
+1,normal,1,0,An HCP creates patients.
+2,normal,1,0,The HCP enters a patient as a new user of system.
+3,normal,1,0,Only the name and email are provided by the HCP.
+11,normal,1,0,"An admin creates a LHCP, an ER and a public health agent."
+12,normal,1,0,A LHCP creates UAPs.
+13,normal,1,0,System presents an approvel screen.
+14,normal,1,0,"An administrator enters a LHCP, an ER, or a public healh agent."
+22,normal,1,0,A user enters their MID and their password to gain role-based entry into iTrust.
+25,normal,1,0,An authenticated session ends when the user logs out or closes the iTrust application.
+30,normal,1,0,Demographic information is entered.
+31,normal,1,0,Demographic information is edited.
+32,normal,1,0,System presents a success or failure message to the editor.
+34,normal,1,0,"An administrator enters a LHCP, an ER or a public health agent as a user of system."
+35,normal,1,0,Initially only the name and email are provided.
+42,normal,1,0,A LHCP enters an UAP as a user of system according to data format 6.2 (all fields mandatory).
+44,normal,1,0,"Any event which views, creates, edits or deletes information is logged."
+45,normal,1,0,"Loggin failures, valid authentication and log outs are also logged."
+48,normal,1,0,The patient views all LHCPs the patient has ever had an office visit with and those whom he or she had designated.
+51,normal,1,0,"The LHCP's name, specialty, address, date of office visit, and whether or not the LHCP is a DLHCP for this patient is indicated."
+52,normal,1,0,The list is sorted by the date of the last office visit (most recent first).
+57,normal,1,0,"The LHCP name, specialty, and  address are provided."
+60,normal,1,0,The patient then chooses the beginning and end date for the period of time.
+71,normal,1,0,An HCP enters a patient.
+72,normal,1,0,An HCP edits patient.
+73,normal,1,0,The information is viewed.
+74,normal,1,0,The information is edited.
+75,normal,1,0,The health care personnel enters a MID of a patient and confirms their selection.
+80,normal,1,0,"System presents a line chart giving the chosen measurements (either height or weight) of the patient spanning the last 3 calendar years of data, averaged by quarters (January-March, April-June, July-September, October-December)."
+81,normal,1,0,System presents an automatically-calculated value of BMI calculated based on the formula.
+84,normal,1,0,An HCP edits an office visit.
+85,normal,1,0,The HCP enters a MID  or name of a patient and confirms their selection.
+86,normal,1,0,The HCP then documents the office visit date and hospital location of the office visit.
+87,normal,1,0,The HCP notes about an office visit.
+90,normal,1,0,All events are logged.
+94,normal,1,0,The HCP selects a medication prescribed from a pull down list.
+95,normal,1,0,"The HCP provides the dosage in milligrams, the start and end date for the prescription, and any special instructions."
+100,normal,1,0,The software tester authenticates himself in the iTrust.
+101,normal,1,0,System presents the actual operational profile of the operations of the iTrust.
+103,normal,1,0,A patient's DLHCP adds a patient's personal representative by typing that person's MID.
+104,normal,1,0,A patient's DLHCP deletes a patient's personal representative by typing that person's MID.
+108,normal,1,0,The administrator stores the CPT code and the name of the immunization.
+110,normal,1,0,"The administrator stores the ICD-9CM code, a classification and the name of the diagnosis."
+112,normal,1,0,The administrator stores the National Drug Code.
+114,normal,1,0,The administrator stores information of a LOINC code.
+116,normal,1,0,An LHCP chooses a chronic disease and a patient.
+119,normal,1,0,"When the chosen patient satisfies the preconditions of the chosen chronic disease, the LHCP is provided with a warning message."
+120,normal,1,0,The message displays the risk factors that the patients exhibit.
+122,normal,1,0,An HCP chooses Office Visit Reminders.
+123,normal,1,0,"An HCP identifies chronic patients who need an office visit, older patients who need a flu shot, or any patient who is overdue for an immunization."
+124,normal,1,0,System presents a listing of patients for whom they are a DLHCP who need care because of satisfying the one of preceding conditions.
+126,normal,1,0,"The list is sorted based on the alphabetical order of the patients' last names, and then first names."
+128,normal,1,0,An administrator maintains the hospital listing.
+129,normal,1,0,The administrator stores hospital Id number for the hospital and the name of the hospital.
+130,normal,1,0,"The administrator adds a new entry for a hospital, or modify the hospital name in an existing entry."
+134,normal,1,0,"A patient, personal representative or LHCP views prescription reports."
+135,normal,1,0,A message is sent to the patient and their personal representative.
+137,normal,1,0,A prescription list is then displayed.
+138,normal,1,0,A prescription list is sorted by start date.
+139,normal,1,0,LHCP selects a patient from the list of requested reports.
+141,normal,1,0,The prescription report is titled with the patient name.
+142,normal,1,0,"The prescription list includes medication, date prescribed, start date, end date for each prescription, and the name of the doctor who prescribed the medication."
+144,normal,1,0,A LHCP or ER views an emergency report and provides an MID.
+146,normal,1,0,The LHCP or ER enters a MID and confirms the input.
+153,normal,1,0,"The administrator adds a new entry for an appointment type, including its type name with up to 30 alpha characters and duration in the unit of minutes."
+154,normal,1,0,The administrator modifies the duration in an existing entry.
+158,normal,1,0,The LHCP schedules an appointment with a patient.
+159,normal,1,0,"The LHCP enters the patient MID, selects the type of appointment from a pull-down menu of the existing appointment types, enters the appointment date and time, enters comment (optional) up to 1000 characters such as reason for the appointment."
+160,normal,1,0,An LHCP views a list of his upcoming appointments.
+161,normal,1,0,A patient views a list of his upcoming appointments.
+162,normal,1,0,The user opens his upcoming appointment list.
+163,normal,1,0,"Each row in the list includes the appointment type, appointment date and time, duration, and the name of either the patient or the LHCP."
+167,normal,1,0,"When an LHCP views a list of his upcoming appointments, system presents an option to edit or remove the appointment."
+171,normal,1,0,The LHCP requests a comprehensive patient report for a particular patient.
+173,normal,1,0,The LHCP enters a patient's MID and confirms his input.
+177,normal,1,0,The answers to the survey are stored.
+179,normal,1,0,A user views physician satisfaction survey results.
+180,normal,1,0,The user provides a zip code or a hospital code and an physician type.
+181,normal,1,0,The patient is provided with the name for each physician.
+183,normal,1,0,"A patient, personal health representative or HCP views laboratory procedure status."
+184,normal,1,0,A HCP edits a laboratory procedure.
+185,normal,1,0,A message is sent to the patient and their personal representative.
+189,normal,1,0,"The list is sorted by date of the last status update, most recent first."
+190,normal,1,0,The HCP enters a MID of a patient and confirms their input.
+195,normal,1,0,The HCP enters a MID of a patient and confirms their input.
+197,normal,1,0,The list is sorted by the dates of the last status update.
+198,normal,1,0,An email notification is sent.
+200,normal,1,0,"An email alert is sent out to the iTrust user in the event of a changed password, status change in laboratory procedure, comprehensive report requested and generated."
+202,normal,1,0,The LHCP views all patients with which he or she has ever had an office visit with.
+203,normal,1,0,"System presents the patient’s name, patient’s address, and patient’s date of last office visit."
+204,normal,1,0,The list is sorted by the date of the last office visit.
+206,normal,1,0,A patient finds the LHCPs who have handled that condition.
+207,normal,1,0,The patient chooses My Diagnoses.
+208,normal,1,0,"System presents a listing of all their own diagnoses, sorted by diagnosis date (more recent first)."
+210,normal,1,0,System presents the LHCPs in the patient's living area (based upon the first three numbers of their zip code) who have handled this diagnosis in the last three years.
+211,normal,1,0,The list is ranked by the quantity of patients the LHCP has treated for that diagnosis (each patient is only counted once regardless of the number of office visits).
+213,normal,1,0,An LHCP sends a message to a patient or the patient’s personal representative.
+214,normal,1,0,A patient's personal representative or a patient or personal representative sends a message to DLHCP or that of a person they are representing.
+219,normal,1,0,An LHCP views his message inbox.
+220,normal,1,0,A patient or personal representative for a patient sends a message to an LHCP.
+221,normal,1,0,System presents a menu of DLHCP.
+222,normal,1,0,The patient or representative chooses one of these DLHCP.
+223,normal,1,0,The patient types the subject and the text of a message.
+224,normal,1,0,The representative types the subject and the text of a message.
+227,normal,1,0,"A row for showing the message subject, the name of the recipient, and the timestamp (which includes both date and time) is then visible in the patient or representative’s message outbox."
+228,normal,1,0,"A bolded row for showing the message subject, the name of sender, and the timestamp is then visible in the LHCP's message inbox."
+229,normal,1,0,A fake email is sent to the LHCP alerting the user that a new message has arrived.
+230,normal,1,0,"After a message is sent, the patient or personal representative is directed to his message outbox."
+231,normal,1,0,An LHCP sends a message to a patient or representative (no multiple recipients allowed in a single message).
+232,normal,1,0,The LHCP enters the patient's MID.
+233,normal,1,0,The LHCP confirms the patient's MID.
+234,normal,1,0,The LHCP enters the representative's MID.
+235,normal,1,0,The LHCP confirms the representative's MID.
+236,normal,1,0,"The LHCP types the subject (up to 100 characters) and the text of a message (up to 1000 characters), and clicks the send button."
+237,normal,1,0,"A row for showing the message subject, the name of the recipient, and the timestamp is then visible in the LHCP’s message outbox."
+238,normal,1,0,"A bolded row for showing the message subject, the name of the sender, and the timestamp is then visible in the patient or representative’s message inbox, and a fake email is sent to the patient or representative that indicates that he or she has a new message from an LHCP."
+239,normal,1,0,"After a message is sent, the LHCP is directed to his message outbox."
+240,normal,1,0,The patient views his message inbox.
+241,normal,1,0,The representative views his message inbox.
+242,normal,1,0,"The patient opens the message to which he or she wishes to reply, and then clicks the reply link above the message text."
+243,normal,1,0,"The representative opens the message to which he or she wishes to reply, and then clicks the reply link above the message text."
+244,normal,1,0,"The patient enters the text of the response message (up to 1000 characters), then clicks the send button."
+245,normal,1,0,"The representative enters the text of the response message (up to 1000 characters), then clicks the send button."
+246,normal,1,0,"A row for showing the message subject (now preceded by ""RE:""), the name of the recipient, and the timestamp is then visible in the patient or representative’s message outbox."
+247,normal,1,0,"A bolded row for showing the message subject (now preceded by ""RE:""), the name of the sender, and timestamp is then visible in the LHCP’s message inbox."
+248,normal,1,0,A fake email is sent to the LHCP alerting the LHCP that a new message reply has arrived.
+249,normal,1,0,The LHCP views his message inbox.
+250,normal,1,0,The LHCP opens the message to which he or she wishes to reply.
+251,normal,1,0,The LHCP clicks the reply link above the message text.
+252,normal,1,0,"The LHCP enters the text of the response message (up to 1000 characters), then clicks the send button."
+253,normal,1,0,"A row for showing the message subject (now preceded by ""RE:""), the name of the recipient, and the timestamp are then visible in the LHCP’s message outbox."
+254,normal,1,0,"A bolded row for showing the message subject (now preceded by ""RE:""), the name of sender, and timestamp are then visible in the patient’s message inbox."
+255,normal,1,0,A fake email is sent to the patient alerting the patient that a new message reply has arrived.
+256,normal,1,0,"A patient, patient representative or LHCP opens his message inbox or outbox."
+257,normal,1,0,"Each row in the message inbox or outbox includes the message subject, the name of either the sender (only for the case of inbox) or recipient (only for the case of outbox), and timestamp."
+259,normal,1,0,Each row for an unread message in the message inbox is bolded.
+261,normal,1,0,"After a message in the message inbox is read (i.e., displayed in a new page), the row for the message in the message inbox is not bolded anymore."
+264,normal,1,0,"A patient, patient representative, or LHCP selects one option out of the ""Sort by"" labeled drop-down box (with options of ""Sender or Recipient"" or ""Timestamp"")."
+265,normal,1,0,"A patient, patient representative, or LHCP selects one option out of the ""by order of"" labeled drop-down box (with options of ""ascending"" or ""descending"")."
+266,normal,1,0,"A patient, patient representative, or LHCP then clicks the ""Sort"" button."
+267,normal,1,0,"Sorted order is not saved for later viewing, after the message inbox or outbox is reopened again (where the default sorting is always used)."
+271,normal,1,0,"The LHCP, the patient or the representative clicks the ""Cancel"" button to cancel the modifications of the filter (i.e., repopulate the user interface with the values of the filtering criteria from the previously saved filter)."
+272,normal,1,0,"The LHCP, the patient or the representative clicks the ""Test Search"" button to search (i.e., displaying the message inbox including only the messages satisfying the specified filtering criteria)."
+273,normal,1,0,"The LHCP, the patient or the representative clicks the ""Save"" button to save the modified filter."
+274,normal,1,0,Each user is associated with only one filter (being saved across login sessions) and applies only this saved filter.
+275,normal,1,0,The user's associated filter initially has all empty inputs for the filtering criteria before the user modifies it.
+277,normal,1,0,"A patient renews the patient's expired prescriptions (i.e., prescriptions' end dates are earlier than the current date) and therefore finds the LHCPs who earlier wrote the patient's expired prescriptions (it is assumed that the doctors who wrote prescriptions are all LHCPs so no LHCP checks on the prescription-writing doctors are needed)."
+278,normal,1,0,The patient chooses prescription report.
+279,normal,1,0,"System presents a list of the patient's expired prescriptions, sorted by start date (the later date is ranked earlier closer to the top)."
+282,normal,1,0,A LHCP refers a patient to another receiving LHCP.
+283,normal,1,0,A HCP reviews consultations.
+284,normal,1,0,A LHCP reviews the consultation.
+285,normal,1,0,An LHCP refers a patient to another receiving LHCP.
+286,normal,1,0,System presents a menu of his patients and a menu of other LHCPs.
+288,normal,1,0,System presents a text box to HCP.
+289,normal,1,0,The LHCP then sends the request or to cancel.
+290,normal,1,0,"The status of the consultation being sent is set as ""pending""."
+291,normal,1,0,An LHCP reviews pending consultations.
+292,normal,1,0,System presents a list of pending referrals.
+293,normal,1,0,The LHCP then selects a referral to view details.
+294,normal,1,0,"System presents the MID of the sending LHCP, the patient MID, and the referral details."
+295,normal,1,0,"System presents an option (""finish"", ""decline"", ""pending"" with ""pending"" as default value) to mark the status of the consultation and a text box to enter the details of the consultation."
+299,normal,1,0,A patient inputs his blood pressure or glucose levels.
+300,normal,1,0,"A patient inputs his weight, height or pedometer readings."
+307,normal,1,0,A patient is added to the list by the LHCP or UAP through typing in the patient's MID or name.
+309,normal,1,0,"In both cases, system presents the name of the patient."
+313,normal,1,0,"By default, all types of information are selected for monitoring."
+314,normal,1,0,A patient reports their physiologic data.
+316,normal,1,0,"The input data, a timestamp and the fact are saved."
+317,normal,1,0,An LHCP views the physiologic data monitoring details.
+318,normal,1,0,System presents a listing of all his patients.
+319,normal,1,0,Patients with no information for the current day are highlighted.
+320,normal,1,0,Patients with blood pressure or glucose level out of range are highlighted (normal blood pressure: systolic 90-140; diastolic 60-90; normal glucose 70-150).
+322,normal,1,0,An LHCP views additional information for a patient.
+326,normal,1,0,System presents a list of the patients.
+329,normal,1,0,"The input data, a timestamp, and the fact and their MID are saved."
+332,normal,1,0,System presents a list of the patients.
+335,normal,1,0,The input data and a timestamp and the fact and their MID are saved.
+337,normal,1,0,"A patient reports his height, weight and pedometer data."
+338,normal,1,0,"The input data, a timestamp and the fact are saved."
+340,normal,1,0,"An LHCP views the height, weight and pedometer data monitoring details."
+341,normal,1,0,System presents  a listing of all his patients.
+342,normal,1,0,Patients with no information for the current day are highlighted in red.
+343,normal,1,0,Patients with a weight value 5% more or less than the immediate previously recorded weight value are highlighted.
+349,normal,1,0,"The input data, a timestamp and the fact  and his MID are saved."
+355,normal,1,0,"The input data, a timestamp, and the fact and his MID are saved."
+358,normal,1,0,A patient reports an event related to a prescription drug or immunization reaction.
+359,normal,1,0,System presents a listing of all prescription drugs for which he has been prescribed and has taken in the last 12 months.
+360,normal,1,0,The patient chooses drugs for which to report the adverse event.
+362,normal,1,0,"A fake email is sent to the LHCP who prescribed the medication indicating the patient name and MID, drug, and symptoms."
+363,normal,1,0,System presents a listing of all immunizations for which he has been administered in the last 12 months.
+364,normal,1,0,The patient chooses the immunization for which to report the adverse event.
+366,normal,1,0,"A fake email is sent to the LHCP who administered the immunization indicating the patient name and MID, drug, and symptoms."
+369,normal,1,0,A public health agent sees trends in adverse events relate to prescription drugs or immunizations.
+370,normal,1,0,"System presents a listing of prescription drug-related adverse events for the time period that do not have a status of ""removed"", sorted by NDC."
+374,normal,1,0,"System presents a listing of immunization-related adverse events for the time period that do not have a status of ""removed"", sorted by CPT code ."
+378,normal,1,0,"The adverse event report changes to a status of ""removed."""
+379,normal,1,0,A message of the removal is sent to the adverse event reporter and to the LHCP.
+381,normal,1,0,The HCP prescribes a patient a drug by selecting its NDC and name.
+386,normal,1,0,The drug is checked against the patient's drug allergies.
+387,normal,1,0,The HCP is notified of drug allergy.
+388,normal,1,0,The drug is checked for interactions between other drugs currently taken by the patient.
+389,normal,1,0,The HCP is notified of possible interactions.
+390,normal,1,0,The HCP selects reasons out from the nine reasons listed here for the overriding.
+391,normal,1,0,"The patient is sent a ""fake email""."
+398,normal,1,0,The administrator records a drug interaction between two prescription drugs.
+399,normal,1,0,The administrator deletes a drug interaction between two prescription drugs.
+400,normal,1,0,System presents two lists of NDC codes or names.
+401,normal,1,0,The administrator chooses a drug from each list to record an interaction between the two drugs.
+402,normal,1,0,The two drugs and a textual description of the possible effects of the interaction are stored.
+403,normal,1,0,The administrator selects one drug.
+404,normal,1,0,System presents a listing of all drug interactions with that drug.
+410,normal,1,0,An LHCP views his appointments in the current month.
+411,normal,1,0,An patient views his appointments in the current month.
+412,normal,1,0,System displays his appointments in the current month.
+414,normal,1,0,"A patient views his appointments in the current month together with his office visit dates, prescription dates, and lab procedure dates of the current month on a calendar for the current month."
+415,normal,1,0,System displays his appointments on the calendar.
+424,normal,1,0,The date entry including conflicting appointments is highlighted in bold (a conflicting appointment is one that has overlap in its appointment duration period with that of at least another appointment of the same user).
+425,normal,1,0,"The user selects an appointment from the calendar to read its details by clicking the ""Read Details"" link beside or below the appointment type name."
+426,normal,1,0,"System displays the details for the appointment in a new page, including the appointment type, the appointment date and start time, comment, and the name of either the patient (only for the user being an LHCP) or the LHCP (only for the user being a patient)."
+427,normal,1,0,"The user selects an office visit from the calendar to read its details by clicking the ""Read Details"" link beside or below the ICD-9CM code (i.e., diagnose)."
+428,normal,1,0,"System displays the details for the visit in a new page, including date of office visit, note text, diagnoses (i.e., ICD-9CM codes), medical procedures performed (i.e., CPT code) , lab procedures ordered (LOINC code, see Data Format 6.11), medications prescribed (i.e., NDC, see Data Format 5.6), immunizations given (i.e., CPT Code, see UC15, S1), and the name of the doctor who prescribed the medication."
+429,normal,1,0,"The user selects a prescription from the calendar to read its details by clicking the ""Read Details"" link beside or below the medication displayed for the prescription."
+430,normal,1,0,"System displays the details for the prescription in a new page, including the medications prescribed."
+431,normal,1,0,"The user selects a laboratory procedure from the calendar to read its details by clicking the ""Read Details"" link beside or below the LOINC code displayed for the laboratory procedure."
+432,normal,1,0,System displays the details for the laboratory procedure in a new page.
+434,normal,1,0,An LHCP views his iTrust homepage.
+435,normal,1,0,"On the LHCP homepage, the LHCP views a notification center with a list of his upcoming appointments for the current date, number of physiologic data monitoring reports of his patients for the current date, number of weight or pedometer data monitoring reports of his patients for the current date, number of unread messages from his message inbox."
+436,normal,1,0,The event is logged.
+437,normal,1,0,A patient or personal health representative views his iTrust homepage.
+438,normal,1,0,"On the patient homepage, the Patient views a notification center."
+439,normal,1,0,The notification center displays the message (You haven't entered remote monitoring information for today yet!)
+440,normal,1,0,"The notification center also displays a list of the patient and patient representee upcoming appointments, the information of his designated HCP, and the number of unread messages from his message inbox."
+441,normal,1,0,"An LHCP views a list of his upcoming appointments for the current date, with each appointment displayed in the format ""HH:MM AM or PM - AppointmentType""."
+442,normal,1,0,The LHCP views an appointment.
+443,normal,1,0,"The appointment details display the appointment type, appointment date and the start time, duration, the name of the patient, and appointment comments."
+445,normal,1,0,"The appointments are listed in the format ""MM/DD/YYYY - AppointmentType""."
+446,normal,1,0,The patient or personal health representative views an appointment.
+447,normal,1,0,"The appointment details include the appointment type, the appointment date, the appointment start time, the duration, the name of the LHCP, and the appointment comments."
+448,normal,1,0,An LHCP views the number of submitted physiologic data monitoring reports of his patients for the current date.
+449,normal,1,0,The LHCP views the physiologic data monitoring details of his patients for the current date.
+450,normal,1,0,System presents a listing of all his patients to view physiologic data reported during the current date.
+451,normal,1,0,"Each row in the list includes their blood pressure and glucose levels, recording timestamp, and whom reported the data (patient, UAP name, personal representative name)."
+452,normal,1,0,An LHCP views the number of submitted weight data monitoring reports of his patients for the current date.
+453,normal,1,0,The LHCP views the weight or pedometer monitoring details of his patients for the current date.
+454,normal,1,0,System presents a listing of all his patients to view weight or pedometer data reported during the current date.
+455,normal,1,0,"Each row in the list includes their weight and pedometer reading numbers levels, recording timestamp, and whom reported the data (patient, UAP name, personal representative name)."
+456,normal,1,0,"A patient, patient representative, or LHCP views the number of unread messages from his message inbox."
+457,normal,1,0,"A patient, patient representative, or LHCP clicks this number to view his message inbox."
+458,normal,1,0,System presents a list of his messages in the message inbox.
+459,normal,1,0,"Each row in the list includes the message subject, the name of the sender, and timestamp."
+462,normal,1,0,"A patient views basic information about his designated LHCPs, including the name, phone number, and contact email information."
+463,normal,1,0,"A personal health representative views basic information about his designated LHCPs, including the name, phone number, and contact email information."
+465,normal,1,0,An activity feed is displayed.
+466,normal,1,0,Only the most recent 20 activities are listed in the user page after login.

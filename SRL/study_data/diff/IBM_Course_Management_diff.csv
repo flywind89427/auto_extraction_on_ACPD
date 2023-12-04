@@ -1,0 +1,112 @@
+,type,AccessControl,Xiao_AC,Sentence
+96,normal,1,0,This use case allows a Registrar to close the registration process.
+102,normal,1,0,This use case starts when the Registrar requests that the system close registration.
+104,normal,1,0,"If it is, then a message is displayed to the Registrar, and the use case terminates."
+106,normal,1,0,"2) For each course offering, the system checks if a professor has signed up to teach the course offering and at least three students have registered."
+107,normal,1,0,"If so, the system commits the course offering for each schedule that contains it."
+108,normal,1,0,"3) For each schedule, the system levels the schedule: if the schedule does not have the maximum number of primary courses selected, the system attempts to select alternates from the schedule’s list of alternates."
+111,normal,1,0,"4) For each course offering, the system closes all course offerings."
+113,normal,1,0,The system cancels the course offering for each schedule that contains it.
+114,normal,1,0,5) The system calculates the tuition owed by each student for his current semester schedule and sends a transaction to the Billing System.
+119,normal,1,0,The system cancels the course offering for each schedule that contains it.
+155,normal,1,0,This use case allows the Registrar to maintain professor information in the registration system.
+156,normal,1,0,"This includes adding, modifying, and deleting professors from the system."
+159,normal,1,0,"This use case starts when the Registrar wishes to add, change, possibly and possibly delete professor information in the system."
+161,normal,1,0,"2) Once the Registrar provides the requested information, one of the sub flows is executed."
+162,normal,1,0,"If the Registrar selected “Add a Professor”, the Add a Professor  subflow is executed."
+163,normal,1,0,"If the Registrar selected “update a professor”, the Update a Professor  subflow is executed."
+164,normal,1,0,"If the Registrar selected “Delete a Professor”, the Delete a Professor subflow is executed."
+166,normal,1,0,The system requests that the Registrar enter the professor information.
+168,list-member,1,0,- date of birth
+169,list-member,1,0,- social security number
+170,list-member,1,0,"1) Once the Registrar provides the requested information, the system generates and assigns a unique id number to the professor."
+171,normal,1,0,The professor is added to the system.
+172,normal,1,0,2) The system provides the Registrar with the new professor id.
+174,normal,1,0,1) The system requests that the Registrar enter the professor id.
+175,normal,1,0,2) The Registrar enters the professor id.
+176,normal,1,0,The system retrieves and displays the professor information.
+177,normal,1,0,3) The Registrar makes the desired changes to the professor information.
+179,normal,1,0,"4) Once the Registrar updates the necessary information, the system updates the professor record."
+181,normal,1,0,1) The system requests that the Registrar enter the professor id
+182,normal,1,0,2) The Registrar enters the professor id.
+183,normal,1,0,The system retrieves and displays the professor information.
+184,normal,1,0,3) The system prompts the Registrar to confirm the deletion of the professor.
+185,normal,1,0,4) The Registrar verifies the deletion.
+186,normal,1,0,5) The system deletes the professor from the system.
+189,normal,1,0,"If, in the Update a Professor  or Delete a Professor sub-flows, a professor with the specified id number does not exist, the system displays an error message."
+198,normal,1,0,"If the use case was successful, the professor information is added, updated, or deleted from the system."
+204,normal,1,0,This use case allows the Registrar to maintain student information in the registration system.
+205,normal,1,0,"This includes adding, modifying, and deleting Students from the system."
+208,normal,1,0,"This use case starts when the Registrar wishes to add, change, possibly and possibly delete student information in the system."
+210,normal,1,0,"2) Once the Registrar provides the requested information, one of the sub flows is executed."
+211,normal,1,0,"If the Registrar selected “Add a Student”, the Add a Student  subflow is executed."
+212,normal,1,0,"If the Registrar selected “Update a Student”, the Update a Student  subflow is executed."
+213,normal,1,0,"If the Registrar selected “Delete a Student”, the Delete a Student  subflow is executed."
+215,normal,1,0,1) The system requests that the Registrar enter the student information.
+217,list-member,1,0,- date of birth
+218,list-member,1,0,- social security number
+219,list-member,1,0,- graduation date
+220,list-member,1,0,"2) Once the Registrar provides the requested information, the system generates and assigns a unique id number to the student."
+221,normal,1,0,The student is added to the system.
+222,normal,1,0,3) The system provides the Registrar with the new student id.
+224,normal,1,0,1) The system requests that the Registrar enter the student id.
+225,normal,1,0,2) The Registrar enters the student id.
+226,normal,1,0,The system retrieves and displays the student information.
+227,normal,1,0,3) The Registrar makes the desired changes to the student information.
+229,normal,1,0,"4) Once the Registrar updates the necessary information, the system updates the student information."
+231,normal,1,0,1) The system requests that the Registrar enter the student id
+232,normal,1,0,2) The Registrar enters the student id.
+233,normal,1,0,The system retrieves and displays the student information.
+234,normal,1,0,3) The system prompts the Registrar to confirm the deletion of the student.
+235,normal,1,0,4) The Registrar verifies the deletion.
+236,normal,1,0,5) The system deletes the student from the system.
+239,normal,1,0,"If, in the Update a Student  or Delete a Student  sub-flows, a student with the specified id number does not exist, the system displays an error message."
+248,normal,1,0,"If the use case was successful, the student information is added, updated, or deleted from the system."
+254,normal,1,0,This use case allows a Student to register for course offerings in the current semester.
+256,normal,1,0,The Course Catalog System provides a list of all the course offerings for the current semester.
+259,normal,1,0,"This use case starts when a Student wishes to register for course offerings, or to change his or her existing course schedule."
+261,normal,1,0,"If the Student selected “Create a Schedule”, the Create  a Schedule subflow is executed."
+262,normal,1,0,"If the Student selected “update a schedule”, the Update a Schedule subflow is executed."
+263,normal,1,0,"If the Student selected “Delete a Schedule”, the Delete a Schedule subflow is executed."
+269,normal,1,0,"1) The system retrieves and displays the Student’s current schedule (e.g., the schedule for the current semester)."
+273,normal,1,0,The Student also selects any course offerings to delete from the existing schedule.
+274,normal,1,0,"4) Once the student has made his or her selections, the system updates the schedule for the Student using the selected course offerings."
+277,normal,1,0,"1) The system retrieves and displays the Student’s current schedule (e.g., the schedule for the current semester)."
+278,normal,1,0,2) The system prompts the Student to confirm the deletion of the schedule.
+279,normal,1,0,3) The Student verifies the deletion.
+280,normal,1,0,4) The system deletes the Schedule.
+284,normal,1,0,"Once the student has made his or her selections, the system creates a schedule for the Student containing the selected course offerings."
+286,normal,1,0,"For each selected course offering on the schedule not already marked as “enrolled in”, the system verifies that the Student has the necessary prerequisites, that the course offering is open, and that there are no schedule conflicts."
+287,normal,1,0,The system then adds the Student to the selected course offering.
+288,normal,1,0,"The course offering is marked as ""enrolled in"" in the schedule."
+289,normal,1,0,The schedule is saved in the system.
+294,normal,1,0,The course offerings not marked as “enrolled in” are marked as “selected” in the schedule.
+295,normal,1,0,The schedule is saved in the system.
+297,normal,1,0,"If, in the Submit Schedule sub-flow, the system determines that the Student has not satisfied the necessary prerequisites, or that the selected course offering is full, or that there are schedule conflicts, an error message is displayed."
+301,normal,1,0,"The Student acknowledges the error, and the Basic Flow is re- started at the beginning."
+304,normal,1,0,"The Student acknowledges the error message, and the use case terminates."
+306,normal,1,0,"When the use case starts, if it is determined that registration for the current semester has been closed, a message is displayed to the Student, and the use case terminates."
+315,normal,1,0,"If the use case was successful, the student schedule is created, updated, or deleted."
+321,normal,1,0,This use case allows a Professor to select the course offerings from the course catalog for the courses that he or she is eligible for and wishes to teach in the upcoming semester.
+324,normal,1,0,This use case starts when a Professor wishes to sign up to teach some course offerings for the upcoming semester.
+325,normal,1,0,1) The system retrieves and displays the list of course offerings the professor is eligible to teach for the current semester.
+326,normal,1,0,The system also retrieves and displays the list of courses the professor has previously selected to teach.
+327,normal,1,0,2) The professor selects possibly and possibly de-selects the course offerings that he or she wishes to teach for the upcoming semester.
+328,normal,1,0,3) The system removes the professor from teaching the de-selected course offerings.
+329,normal,1,0,"4) The system verifies that the selected offerings do not conflict (i.e., have the same dates and times) with each other or any course offerings that the professor has previously signed up to teach."
+330,normal,1,0,"If there is no conflict, the system updates the course offering information for each offering the professor selects (i.e., records the professor as the instructor for the course offering)."
+341,normal,1,0,"The Student acknowledges the error message, and the use case terminates."
+343,normal,1,0,"When the use case starts, if it is determined that registration for the current semester has been closed, a message is displayed to the Professor, and the use case terminates."
+357,normal,1,0,This use case allows a Professor to submit student grades for one or more classes completed in the previous semester.
+360,normal,1,0,This use case starts when a Professor wishes to submit student grades for one or more classes completed in the previous semester.
+361,normal,1,0,1) The system displays a list of course offerings the Professor taught in the previous semester.
+362,normal,1,0,2) The Professor selects a course offering.
+363,normal,1,0,3) The system retrieves a list of all students who were registered for the course offering.
+364,normal,1,0,The system displays each student and any grade that was previously assigned for the offering.
+365,normal,1,0,"4) For each student on the list, the Professor enters a grade: A, B, C, D, F, or I.  The system records the student’s grade for the course offering."
+377,normal,1,0,"If the use case was successful, student grades for a course offering are updated."
+383,normal,1,0,This use case allows a Student to view his or her report card for the previously completed semester.
+386,normal,1,0,This use case starts when a Student wishes to view his or her report card for the previously completed semester.
+387,normal,1,0,1) The system retrieves and displays the grade information for each of the course offerings the Student completed during the previous semester.
+388,normal,1,0,"2) When the Student indicates that he or she is done viewing the grades, the use case terminates."
+392,normal,1,0,"Once the Student acknowledges the message, the use case terminates."
